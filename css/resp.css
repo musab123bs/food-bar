@@ -1,0 +1,41 @@
+@media all and (max-width: 998px) and (min-width: 768px){
+    html{
+        font-size: 55.5%;
+    }
+}
+ 
+
+@media all and (max-width: 878px) and (min-width: 768px){
+    html body .banner1 .header .menu-list {
+        width: 90%;
+    }
+    .menu-list ul li a {
+        font-size: 1.8rem !important;
+    }
+}
+
+@media only screen and (max-width:767px){
+    html body .banner1 .header .menu-list ul{
+        display: none;
+    }
+    html body .banner1 .header .menu-list .toggl-btn {
+        display: flex;
+    }
+}
+
+@media only screen and (max-width: 425px){
+    html body .banner1 .header{
+        padding: 0 2rem 0;
+    }
+    .main-div .main-banner-heading h1{
+        font-size: 22rem;
+    letter-spacing: 1rem;
+    }
+    .main-heading h1{
+        font-size: 6rem;
+    }
+    .main-div .box .box-content h1{
+        font-family: 'Dokter Monstro', sans-serif;
+        font-size: 12vw;
+    }
+}
